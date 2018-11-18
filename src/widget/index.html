@@ -1,0 +1,9 @@
+<div id="div_viewer">
+	<ul id="pic_viewer">
+		{{#each data}}
+		<li>
+			<img {{#if ../profile.inline}} hidden {{/if}} alt="{{pic_name}}" src="{{pic_url}}" data-original="{{big_pic_url}}" />
+		</li>
+		{{/each}}
+	</ul>
+</div>

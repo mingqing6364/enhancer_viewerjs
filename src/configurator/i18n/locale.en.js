@@ -1,0 +1,26 @@
+module.exports = {
+  __lang__: 'en',
+  tip: '属性名需使用小写字母',
+  contentField1: '图片名称',
+  contentField2: '图片URL',
+  contentField3: '大图URL',
+
+  inline:	'启用 inline 模式',
+  navbar:	'显示缩略图导航',
+  title:	'显示当前图片的标题及尺寸',
+  toolbar:	'显示工具栏',
+  tooltip:	'显示缩放百分比',
+  movable:	'图片是否可移动',
+  zoomable:	'图片是否可缩放',
+  rotatable:	'图片是否可旋转',
+  scalable:	'图片是否可翻转',
+  transition:	'使用 CSS3 过度',
+  fullscreen:	'播放时是否全屏',
+  keyboard:	'是否支持键盘',
+  interval:	'播放间隔，单位为毫秒',
+  zoomRatio:	'鼠标滚动时的缩放比例',
+  minZoomRatio:	'最小缩放比例',
+  maxZoomRatio:	'最大缩放比例',
+  zIndex:	'设置图片查看器 modal 模式时的 z-index',
+  zIndexInline:	'设置图片查看器 inline 模式时的 z-index'
+};
